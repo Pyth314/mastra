@@ -1,5 +1,11 @@
 # @mastra/braintrust
 
+## 1.2.4-alpha.2
+
+### Patch Changes
+
+- Fixed tool calls showing as `unknown_tool` in the Braintrust Messages tab. Tool spans (`TOOL_CALL`, `MCP_TOOL_CALL`, and `PROVIDER_TOOL_CALL`) are now converted to OpenAI chat messages with the real tool name and paired result, so Braintrust renders them correctly. ([#19364](https://github.com/mastra-ai/mastra/pull/19364))
+
 ## 1.2.4-alpha.1
 
 ### Patch Changes
